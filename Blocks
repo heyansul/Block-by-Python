@@ -28,6 +28,6 @@ bc=Blockchain()
 bc.add_block('1')
 bc.add_block('2')
 bc.add_block('3')
-
+//bc.add_block('4')
 for block in bc.chain:
     print(block.__dict__)
